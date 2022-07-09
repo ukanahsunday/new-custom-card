@@ -1,0 +1,163 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+@media screen and (max-width: 1440px){
+    .column{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .nav-container, main{
+        flex-direction: column;
+    }
+    .nav-container .first-nav{
+        margin-bottom: 25px;
+    }
+    
+    .nav-contianer .sec-nav{
+        margin-top: 25px;
+        margin-bottom:25px;
+    }
+    .column{
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:"Big", "Shoulders", "Display","Lexend" ;
+    font-weight:700;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin:auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header .nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 50px 0px 50px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:hsl(0, 0%, 95%);
+    padding:10px 27px;
+}
+.first-nav, .sec-nav{
+    background-color: hsl(184, 100%, 22%) ;
+    padding:10px 27px;
+    border:none;
+    border-radius: 25px;
+}
+.first-nav:hover, .sec-nav:hover{
+    background-color: hsl(60, 96%, 26%);
+}
+.column{
+    padding:20px;
+    height:60vh;
+}
+#top{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+#middle{
+    background-color: hsl(184, 100%, 22%) ;
+}
+#bottom{
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+.logo{
+    width:40px;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+.column p{
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+    padding:24px 0px 50px 0px;
+    height:50px;
+}
+.column #middle button{
+    padding-bottom: 20px;
+
+}
+.column h2{
+    color:hsl(0, 0%, 95%);
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding:10px 27px;
+    border:none;
+    border-radius: 25px;
+    margin-top:120px;
+}
+#btn1{
+    color:hsl(31, 77%, 52%);
+}
+#btn2{
+    color: hsl(184, 100%, 22%) ;
+}
+#btn3{
+    color:hsl(179, 100%, 13%);
+}
+button:active{
+    background-color:transparent;
+    border:2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+#btn1:active, #btn2:active, #btn3:active{
+    color:hsl(0, 0%, 95%);
+}
+/* Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+ */
